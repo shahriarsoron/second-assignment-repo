@@ -104,6 +104,19 @@ nav a{
     font-weight: bold;
 
 }
+.plant-lovers-image {
+    position: relative;
+    display: inline-block;
+}
+
+.trusted-badge {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 200px; /* Adjust size if needed */
+    z-index: 10;
+}
+
 
 /* .badge{
     width: 12rem;
@@ -330,4 +343,7 @@ footer{
     /* .second-portion li{ 
          margin-bottom:0px;
     } */
+     .trusted-badge{
+        display:none;
+     }
 }
