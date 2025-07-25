@@ -340,9 +340,6 @@ footer{
         flex-direction: column;
         gap: 0px;
     }
-    /* .second-portion li{ 
-         margin-bottom:0px;
-    } */
      .trusted-badge{
         display:none;
      }
