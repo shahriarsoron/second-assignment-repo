@@ -284,9 +284,11 @@ footer{
     margin-top: 0;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:576px) {
+    
     .fresh-flowers{
         flex-direction: column-reverse;
+        overflow-x: hidden;
     }
     #home, #shop, #about-us{
         display:none;
@@ -295,14 +297,21 @@ footer{
         margin-left: 0px;
         margin-right: 0px;
         gap: 100px;
+
+    }
+    main{
+        max-width: 576px;
+        width: 100%;
+        
     }
     .eight-picture{
         margin: 0px;
+        width: 100%;
     }
     .eight-picture-image-about{
         grid-template-columns: repeat(2,1fr);
         margin: 0 auto;
-        width: 100%;
+        max-width: 576px;
     }
     .body{
         max-width:800px
